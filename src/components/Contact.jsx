@@ -66,7 +66,7 @@ const Contact = () => {
             {/* <label htmlFor="name" className="mx-4">Name</label> */}
             <input
               name="name"
-              className="bg-slate-300 text-black text-lg rounded-md border-none focus:bg-white focus:outline-none w-1/3 px-2 py-1 mb-4"
+              className="bg-slate-300 text-black text-lg rounded-md border-none focus:bg-white focus:outline-none w-80 lg:w-1/3 px-2 py-1 mb-4"
               type="text"
               placeholder="Your name"
               required
@@ -76,7 +76,7 @@ const Contact = () => {
           <div>
             <textarea
               name="messsage"
-              className="bg-slate-300 text-black text-lg rounded-md border-none focus:bg-white focus:outline-none w-1/3 px-2 py-1 mb-4"
+              className="bg-slate-300 text-black text-lg rounded-md border-none focus:bg-white focus:outline-none w-80 lg:w-1/3 px-2 py-1 mb-4"
               type="text"
               placeholder="Your message"
               rows={5}
