@@ -21,21 +21,7 @@ export const EXPERIENCES = [
     company: "Coditas",
     description: `Worked closely with variuos teams acquiring practical knowledge in React and Postman for API testing.     Assisted in development of web applications, contributing to codebase improvements and bugfixes. Implemented clean code approach and optimized frontend performance.`,
     technologies: ["HTML", "CSS","Javascript", "React.js","Postman API"],
-  },
-//   {
-//     year: "2021 - 2022",
-//     role: "Full Stack Developer",
-//     company: "Facebook",
-//     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-//     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-//   },
-//   {
-//     year: "2020 - 2021",
-//     role: "Software Engineer",
-//     company: "Paypal",
-//     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-//     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-//   },
+  }
 ];
 
 export const PROJECTS = [
@@ -45,6 +31,8 @@ export const PROJECTS = [
     description:
       "A fully functional cab booking website with features like booking cab in advance for a month or more, and user authentication.",
     technologies: ["React", "Node.js", "MongoDB","Express","Tailwind","Recoil"],
+    link:"#",
+    deployed:false
   },
   {
     title: "PixlBlog: A blog making app",
@@ -52,6 +40,9 @@ export const PROJECTS = [
     description:
       "An platform for creating and publishing blogs, with features such as rich text editing and displaying.",
     technologies: ["React", "Node.js", "MongoDB","Express","Tailwind","Recoil"],
+    link:"#",
+    deployed:false
+
   },
   {
     title: "Portfolio Website",
@@ -59,18 +50,23 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind"],
+    link:"#",
+    deployed:true
   },
   {
-    title: "PayTm clone",
+    title: "PayTM clone",
     image: project4,
     description:
       "A Paytm clone, featuring core functionalities for digital payments and transactions, similar to orignal app",
     technologies: ["React", "Node.js", "MongoDB","Express","Tailwind","Recoil"],
+    link:"#",
+    deployed:false
+
   },
 ];
 
 export const CONTACT = {
   address: "Pune, India",
   phoneNo: "+91 9527250304 ",
-  email: "rananawareakash001.com",
+  email: "rananawareakash001@gmail.com",
 };

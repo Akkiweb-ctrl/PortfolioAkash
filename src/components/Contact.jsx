@@ -54,7 +54,7 @@ const Contact = () => {
          className="my-4">{CONTACT.phoneNo}</motion.p> */}
         <span>
           Please contact me directly at{" "}
-          <a href="#" className="border-b">
+          <a href={`mailto:${CONTACT.email}`} target="_blank" className="border-b">
             {CONTACT.email}
           </a>{" "}
           or through the form below.
