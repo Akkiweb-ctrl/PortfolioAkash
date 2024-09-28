@@ -17,6 +17,7 @@ const Projects = () => {
         {PROJECTS.map((project, index) => (
           <a
             href={project.link}
+            target="_blank"
             key={index}
             className="mb-8 flex flex-wrap lg:justify-center"
           >
