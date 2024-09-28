@@ -13,14 +13,14 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Volkswagen IT Services, India",
     description: `Developed and maintained a web application using React. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js","MongoDB","NodeJs"],
+    technologies: ["Javascript", "React.js", "MongoDB", "NodeJs"],
   },
   {
     year: "Apr-2022 - Jul-2022",
     role: "Associate Software Engineer (Internship)",
     company: "Coditas",
     description: `Worked closely with variuos teams acquiring practical knowledge in React and Postman for API testing.     Assisted in development of web applications, contributing to codebase improvements and bugfixes. Implemented clean code approach and optimized frontend performance.`,
-    technologies: ["HTML", "CSS","Javascript", "React.js","Postman API"],
+    technologies: ["HTML", "CSS", "Javascript", "React.js", "Postman API"],
   }
 ];
 
@@ -30,18 +30,18 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional cab booking website with features like booking cab in advance for a month or more, and user authentication.",
-    technologies: ["React", "Node.js", "MongoDB","Express","Tailwind","Recoil"],
-    link:"#",
-    deployed:false
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind", "Recoil"],
+    link: "https://black-cabs-frontend.vercel.app/",
+    deployed: false
   },
   {
     title: "PixlBlog: A blog making app",
     image: project2,
     description:
       "An platform for creating and publishing blogs, with features such as rich text editing and displaying.",
-    technologies: ["React", "Node.js", "MongoDB","Express","Tailwind","Recoil"],
-    link:"#",
-    deployed:false
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind", "Recoil"],
+    link: "#",
+    deployed: false
 
   },
   {
@@ -50,17 +50,17 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind"],
-    link:"#",
-    deployed:true
+    link: "#",
+    deployed: true
   },
   {
     title: "PayTM clone",
     image: project4,
     description:
       "A Paytm clone, featuring core functionalities for digital payments and transactions, similar to orignal app",
-    technologies: ["React", "Node.js", "MongoDB","Express","Tailwind","Recoil"],
-    link:"#",
-    deployed:false
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind", "Recoil"],
+    link: "#",
+    deployed: false
 
   },
 ];
